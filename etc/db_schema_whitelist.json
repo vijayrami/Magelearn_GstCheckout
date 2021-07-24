@@ -1,0 +1,12 @@
+{
+    "sales_order": {
+        "column": {
+            "gst_number": true
+        }
+    },
+    "quote": {
+        "column": {
+            "gst_number": true
+        }
+    }
+}
