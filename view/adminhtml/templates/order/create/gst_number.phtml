@@ -1,4 +1,5 @@
 <?php /** @var \Magelearn\GstCheckout\Block\Adminhtml\GSTNumber $block */ ?>
+<?php if($block->getConfig()):?>
 <div class="admin__field field-comment">
     <label for="gst_number" class="admin__field-label"><span><?= __('GST Number') ?></span></label>
     <div class="admin__field-control">
@@ -8,3 +9,4 @@
                 class="admin__control-input" >
     </div>
 </div>
+<?php endif; ?>

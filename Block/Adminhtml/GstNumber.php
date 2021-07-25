@@ -3,7 +3,7 @@ namespace Magelearn\GstCheckout\Block\Adminhtml;
 
 use Magento\Backend\Block\Template;
 use Magento\Backend\Block\Template\Context;
-use Magento\Framework\Serialize\Serializer\Json;
+use Magelearn\GstCheckout\Model\Config;
 
 class GstNumber extends Template
 {
@@ -13,24 +13,18 @@ class GstNumber extends Template
     private $config;
 
     /**
-     * @var Json
-     */
-    private $json;
-
-    /**
      * GST Number constructor.
      *
      * @param Context $context
      * @param Config $config
-     * @param Json $json
      * @param array $data
      */
     public function __construct(
         Context $context,
-        Json $json,
+        Config $config,
         array $data = []
     ) {
-        $this->json = $json;
+    	$this->config = $config;
         parent::__construct($context, $data);
     }
 
@@ -39,7 +33,7 @@ class GstNumber extends Template
      */
     public function getConfig()
     {
-        return $this->json->serialize($this->config->getConfig());
+        return $this->config->getstatus();
     }
 
 }
