@@ -11,5 +11,7 @@ Add Custom Checkout field in Shipping Address information form in Magento2
 
 [![Screenshot-from-2021-07-26-19-32-25.png](https://i.postimg.cc/Yq79Dkyk/Screenshot-from-2021-07-26-19-32-25.png)](https://postimg.cc/6THtysX1)
 
+[![Screenshot-from-2021-07-26-19-42-51.png](https://i.postimg.cc/L539fCfL/Screenshot-from-2021-07-26-19-42-51.png)](https://postimg.cc/8fsggbZz)
+
 # Referances:
 https://github.com/vrajeshpatel4u/magento2-gst-custom-checkout-field
